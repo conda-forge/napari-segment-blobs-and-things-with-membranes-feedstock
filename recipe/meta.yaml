@@ -27,6 +27,7 @@ requirements:
     - python >=3.7
     - scikit-image
     - scipy
+    - napari-assistant
 
 test:
   imports:
