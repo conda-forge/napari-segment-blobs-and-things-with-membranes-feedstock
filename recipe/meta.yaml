@@ -1,5 +1,5 @@
 {% set name = "napari-segment-blobs-and-things-with-membranes" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-segment-blobs-and-things-with-membranes-{{ version }}.tar.gz
-  sha256: b733692ad2347679eee9645e63ef936a31460b0198c9ce73500a840905e7147e
+  sha256: e638475a8df81d60e64e9128403060f3df885a109027796b039148ee062d7f54
 
 build:
   noarch: python
@@ -22,12 +22,13 @@ requirements:
     - napari
     - napari-plugin-engine >=0.1.4
     - napari-time-slicer
-    - napari-tools-menu
+    - napari-tools-menu >=0.1.17
     - numpy
     - python >=3.7
     - scikit-image
     - scipy
     - napari-assistant
+    - stackview >=0.3.2
 
 test:
   imports:
