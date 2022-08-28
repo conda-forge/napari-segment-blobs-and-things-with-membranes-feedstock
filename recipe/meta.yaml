@@ -22,12 +22,13 @@ requirements:
     - napari
     - napari-plugin-engine >=0.1.4
     - napari-time-slicer
-    - napari-tools-menu
+    - napari-tools-menu >=0.1.17
     - numpy
     - python >=3.7
     - scikit-image
     - scipy
     - napari-assistant
+    - stackview >=0.3.2
 
 test:
   imports:
