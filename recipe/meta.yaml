@@ -1,5 +1,5 @@
 {% set name = "napari-segment-blobs-and-things-with-membranes" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-segment-blobs-and-things-with-membranes-{{ version }}.tar.gz
-  sha256: 1fe365ea70a15102d7cc1c0bac2b5a1531df7ae3d01512ff286b62c56f6432b0
+  sha256: 849d6ac0a6a24d506b522ccc5b94404f7645c6035bb01fb37c3a4c5aa42b7e45
 
 build:
   noarch: python
