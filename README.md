@@ -1,11 +1,11 @@
-About napari-segment-blobs-and-things-with-membranes
-====================================================
+About napari-segment-blobs-and-things-with-membranes-feedstock
+==============================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-segment-blobs-and-things-with-membranes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/haesleinhuepf/napari-segment-blobs-and-things-with-membranes
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-segment-blobs-and-things-with-membranes-feedstock/blob/main/LICENSE.txt)
 
 Summary: A plugin based on scikit-image for segmenting nuclei and cells based on fluorescent microscopy images with high intensity in nuclei and/or membranes
 
