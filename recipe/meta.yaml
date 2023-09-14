@@ -35,7 +35,7 @@ test:
     - napari_segment_blobs_and_things_with_membranes
   commands:
     - pip list
-    - pip check
+    # - pip check  # napari-assistant 0.4.6 requires jupyter and jupytext
   requires:
     - pip
 
@@ -51,5 +51,5 @@ about:
 extra:
   recipe-maintainers:
     - goanpeca
-    - jaimergp
     - haesleinhuepf
+    - jaimergp
