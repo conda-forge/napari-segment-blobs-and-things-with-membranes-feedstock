@@ -3,11 +3,15 @@ About napari-segment-blobs-and-things-with-membranes-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-segment-blobs-and-things-with-membranes-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/haesleinhuepf/napari-segment-blobs-and-things-with-membranes
+Home: https://pypi.org/project/napari-segment-blobs-and-things-with-membranes
 
 Package license: BSD-3-Clause
 
-Summary: A plugin based on scikit-image for segmenting nuclei and cells based on fluorescent microscopy images with high intensity in nuclei and/or membranes
+Summary: A plugin based on scikit-image for segmenting nuclei and cells based on fluorescent
+microscopy images with high intensity in nuclei and/or membranes.
+
+
+Development: https://github.com/haesleinhuepf/napari-segment-blobs-and-things-with-membranes
 
 Current build status
 ====================
@@ -95,7 +99,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
